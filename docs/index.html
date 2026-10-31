@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>SwipeSelection Reborn</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <p class="eyebrow">Jailbreak tweak</p>
+      <h1>SwipeSelection Reborn</h1>
+      <p class="summary">A modern rebuild of SwipeSelection for iOS 16+. Swipe the keyboard to move the caret, and swipe from Shift or Delete to select text.</p>
+      <div class="meta">
+        <span>Version 1.0.0</span>
+        <span><code>com.zoot334.swipeselectionreborn</code></span>
+      </div>
+    </header>
+
+    <section class="card">
+      <h2>Compatibility</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Build</th>
+            <th>Architecture</th>
+            <th>Compatibility</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>RootHide</td>
+            <td><code>iphoneos-arm64e</code></td>
+            <td>iOS 16+ · RootHide</td>
+          </tr>
+          <tr>
+            <td>Rootless</td>
+            <td><code>iphoneos-arm64</code></td>
+            <td>iOS 16+ · rootless build (not independently tested)</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>Tested on iOS 16 (palera1n, RootHide) and iOS 18 (Dopamine 3, RootHide).</p>
+    </section>
+
+    <section class="card">
+      <h2>Features</h2>
+      <ul>
+        <li>Swipe left or right to move the caret.</li>
+        <li>Swipe from Shift or Delete to extend a selection.</li>
+        <li>Apple’s native trackpad-style keyboard fade.</li>
+        <li>Optional haptics in five strengths.</li>
+        <li>Cursor speed slider with a center snap and precise value entry.</li>
+        <li>Optional Space, Shift &amp; Delete only activation mode.</li>
+        <li>WebKit and CodeMirror text-field support.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Settings</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Setting</th>
+            <th>Default</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Enabled</td><td>On</td></tr>
+          <tr><td>Haptic feedback</td><td>On, Light</td></tr>
+          <tr><td>Cursor speed</td><td>1.00 (Normal)</td></tr>
+          <tr><td>Dim keyboard</td><td>On</td></tr>
+          <tr><td>Space, Shift &amp; Delete Only</td><td>Off</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>Activation mode</h2>
+      <p>When <strong>Space, Shift &amp; Delete Only</strong> is enabled, only swipes that start on those keys control SwipeSelection. Swipes from other keys follow your existing Apple Slide to Type setting. SwipeSelection does not change that setting.</p>
+    </section>
+
+    <section class="card">
+      <h2>Install</h2>
+      <ol>
+        <li>Download the matching deb:
+          <ul>
+            <li>RootHide: <code>iphoneos-arm64e</code></li>
+            <li>Rootless: <code>iphoneos-arm64</code></li>
+          </ul>
+        </li>
+        <li>Install with Sileo, Zebra, or Filza.</li>
+        <li>Respring if the Settings pane or keyboard does not reload automatically.</li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h2>Verification</h2>
+      <p>SHA-256 checksums are published in <code>SHA256SUMS.txt</code> with the GitHub release.</p>
+    </section>
+
+    <section class="card">
+      <h2>Credits</h2>
+      <p>Original SwipeSelection by Kyle Howells. SwipeSelection 2.0 rebuild by iCraze. SwipeSelection Reborn maintained by zoot334.</p>
+    </section>
+
+    <section class="card">
+      <h2>License</h2>
+      <p>MIT</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>SwipeSelection Reborn · Rootless + RootHide</p>
+  </footer>
+</body>
+</html>

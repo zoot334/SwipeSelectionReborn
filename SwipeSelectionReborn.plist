@@ -1,0 +1,11 @@
+{
+    Filter = {
+        Bundles = (
+            "com.apple.UIKit",
+            "com.apple.mobilenotes",
+            "com.apple.MobileSMS",
+            "com.apple.mobilesafari",
+            "com.apple.Preferences"
+        );
+    };
+}

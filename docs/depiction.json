@@ -1,0 +1,82 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.1",
+  "tintColor": "#5B3DF5",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "SwipeSelection Reborn",
+          "subtitle": "Version 1.0.0"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "A modern rebuild of SwipeSelection for iOS 16+. Swipe the keyboard to move the caret, and swipe from Shift or Delete to select text."
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Package",
+          "text": "com.zoot334.swipeselectionreborn"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.0.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "RootHide",
+          "text": "iOS 16+ · iphoneos-arm64e"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Rootless",
+          "text": "iOS 16+ · rootless build (not independently tested)"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Tested",
+          "text": "iOS 16 (palera1n, RootHide) and iOS 18 (Dopamine 3, RootHide)"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Features\n\n- Swipe left or right to move the caret.\n- Swipe from Shift or Delete to extend a selection.\n- Apple’s native trackpad-style keyboard fade.\n- Optional haptics in five strengths.\n- Cursor speed slider with a center snap and precise value entry.\n- WebKit and CodeMirror text-field support."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Activation mode\n\nWhen **Space, Shift & Delete Only** is enabled, only swipes starting on those keys control SwipeSelection. Swipes from other keys follow your existing Apple Slide to Type setting. SwipeSelection does not change that setting."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Install\n\n1. Download the matching deb: RootHide (`iphoneos-arm64e`) or Rootless (`iphoneos-arm64`).\n2. Install with Sileo, Zebra, or Filza.\n3. Respring if the Settings pane or keyboard does not reload automatically."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Verification\n\nSHA-256 checksums are published in `SHA256SUMS.txt` with the GitHub release."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Credits\n\nOriginal SwipeSelection by Kyle Howells. SwipeSelection 2.0 rebuild by iCraze. SwipeSelection Reborn maintained by zoot334."
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "License",
+          "text": "MIT"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### 1.0.0\n\n- Initial release."
+        }
+      ]
+    }
+  ]
+}
