@@ -1,2 +1,2 @@
-0a59ed228a74912c24a5f17c3d84bd812f30db855705d027bc62f095268f5ef5  com.zoot334.swipeselectionreborn_1.0.0_iphoneos-arm64.deb
-80389b626def2779404300c5bbf51ea23aae4e16d5634eb69f4902e622d84c2f  com.zoot334.swipeselectionreborn_1.0.0_iphoneos-arm64e.deb
+e646b7bed5941c4e925c3dbf8c6c604985eef1858207000f6ce54f1bd9fc4bdb  com.zoot334.swipeselectionreborn_1.0.0_iphoneos-arm64.deb
+1f21875d952edfef04706de8377b656abf51c381735efbebf6207816703cf983  com.zoot334.swipeselectionreborn_1.0.0_iphoneos-arm64e.deb

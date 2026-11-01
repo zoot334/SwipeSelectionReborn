@@ -4,19 +4,34 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#5B3DF5">
+  <meta name="description" content="SwipeSelection Reborn is a rootless jailbreak tweak that brings swipe-to-move-caret and Shift/Delete selection to the iOS keyboard.">
+  <meta property="og:title" content="SwipeSelection Reborn">
+  <meta property="og:description" content="Swipe the keyboard to move the caret and select text on iOS 16+.">
+  <meta property="og:image" content="https://zoot334.github.io/SwipeSelectionReborn/icon.png">
+  <meta property="og:type" content="website">
   <title>SwipeSelection Reborn</title>
+  <link rel="icon" href="icon.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main class="page">
     <header class="hero">
-      <p class="eyebrow">Jailbreak tweak</p>
-      <h1>SwipeSelection Reborn</h1>
-      <p class="summary">A modern rebuild of SwipeSelection for iOS 16+. Swipe the keyboard to move the caret, and swipe from Shift or Delete to select text.</p>
-      <div class="meta">
-        <span>Version 1.0.0</span>
-        <span><code>com.zoot334.swipeselectionreborn</code></span>
+      <div class="hero-copy">
+        <p class="eyebrow">Rootless + RootHide</p>
+        <h1>SwipeSelection Reborn</h1>
+        <p class="summary">Swipe the keyboard to move the caret and swipe from Shift or Delete to select text. Built for iOS 16+.</p>
+        <div class="actions">
+          <a class="button" href="https://github.com/zoot334/SwipeSelectionReborn/releases/latest">Download release</a>
+          <a class="button secondary" href="https://github.com/zoot334/SwipeSelectionReborn">View source</a>
+        </div>
+        <div class="meta">
+          <span>Version 1.0.0</span>
+          <span><code>com.zoot334.swipeselectionreborn</code></span>
+          <span>MIT</span>
+        </div>
       </div>
+      <img class="hero-icon" src="icon.png" width="112" height="112" alt="SwipeSelection Reborn icon">
     </header>
 
     <section class="card">
@@ -33,29 +48,33 @@
           <tr>
             <td>RootHide</td>
             <td><code>iphoneos-arm64e</code></td>
-            <td>iOS 16+ · RootHide</td>
+            <td>Tested on iOS 16 and iOS 18</td>
           </tr>
           <tr>
             <td>Rootless</td>
             <td><code>iphoneos-arm64</code></td>
-            <td>iOS 16+ · rootless build (not independently tested)</td>
+            <td>iOS 16+; not independently tested</td>
           </tr>
         </tbody>
       </table>
-      <p>Tested on iOS 16 (palera1n, RootHide) and iOS 18 (Dopamine 3, RootHide).</p>
+      <p class="note">Tested on iOS 16 (palera1n, RootHide) and iOS 18 (Dopamine 3, RootHide).</p>
     </section>
 
     <section class="card">
-      <h2>Features</h2>
+      <h2>Highlights</h2>
       <ul>
-        <li>Swipe left or right to move the caret.</li>
-        <li>Swipe from Shift or Delete to extend a selection.</li>
-        <li>Apple’s native trackpad-style keyboard fade.</li>
-        <li>Optional haptics in five strengths.</li>
-        <li>Cursor speed slider with a center snap and precise value entry.</li>
-        <li>Optional Space, Shift &amp; Delete only activation mode.</li>
-        <li>WebKit and CodeMirror text-field support.</li>
+        <li>Swipe left or right to move the cursor.</li>
+        <li>Swipe from Shift or Delete to select text.</li>
+        <li>Optional Space, Shift &amp; Delete-only activation mode.</li>
+        <li>Optional haptic feedback.</li>
+        <li>Adjustable cursor speed.</li>
+        <li>Native keyboard fade while swiping.</li>
       </ul>
+    </section>
+
+    <section class="card">
+      <h2>Activation mode</h2>
+      <p>When <strong>Space, Shift &amp; Delete Only</strong> is enabled, only swipes starting on those keys control SwipeSelection. Other key swipes follow your existing Apple Slide to Type setting. SwipeSelection does not change that setting.</p>
     </section>
 
     <section class="card">
@@ -70,16 +89,11 @@
         <tbody>
           <tr><td>Enabled</td><td>On</td></tr>
           <tr><td>Haptic feedback</td><td>On, Light</td></tr>
-          <tr><td>Cursor speed</td><td>1.00 (Normal)</td></tr>
+          <tr><td>Cursor speed</td><td>1.00</td></tr>
           <tr><td>Dim keyboard</td><td>On</td></tr>
           <tr><td>Space, Shift &amp; Delete Only</td><td>Off</td></tr>
         </tbody>
       </table>
-    </section>
-
-    <section class="card">
-      <h2>Activation mode</h2>
-      <p>When <strong>Space, Shift &amp; Delete Only</strong> is enabled, only swipes that start on those keys control SwipeSelection. Swipes from other keys follow your existing Apple Slide to Type setting. SwipeSelection does not change that setting.</p>
     </section>
 
     <section class="card">
@@ -99,6 +113,11 @@
     <section class="card">
       <h2>Verification</h2>
       <p>SHA-256 checksums are published in <code>SHA256SUMS.txt</code> with the GitHub release.</p>
+    </section>
+
+    <section class="card">
+      <h2>Support</h2>
+      <p>Open an issue on <a href="https://github.com/zoot334/SwipeSelectionReborn/issues">GitHub</a>. Include your iOS version, jailbreak, device model, and SwipeSelection Reborn version.</p>
     </section>
 
     <section class="card">

@@ -14,7 +14,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "A modern rebuild of SwipeSelection for iOS 16+. Swipe the keyboard to move the caret, and swipe from Shift or Delete to select text."
+          "markdown": "Swipe the keyboard to move the caret and swipe from Shift or Delete to select text. Built for iOS 16+."
         },
         {
           "class": "DepictionTableTextView",
@@ -34,7 +34,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Rootless",
-          "text": "iOS 16+ · rootless build (not independently tested)"
+          "text": "iOS 16+ · not independently tested"
         },
         {
           "class": "DepictionTableTextView",
@@ -43,11 +43,15 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### Features\n\n- Swipe left or right to move the caret.\n- Swipe from Shift or Delete to extend a selection.\n- Apple’s native trackpad-style keyboard fade.\n- Optional haptics in five strengths.\n- Cursor speed slider with a center snap and precise value entry.\n- WebKit and CodeMirror text-field support."
+          "markdown": "### Highlights\n\n- Swipe left or right to move the cursor.\n- Swipe from Shift or Delete to select text.\n- Optional Space, Shift & Delete-only activation mode.\n- Optional haptic feedback.\n- Adjustable cursor speed.\n- Native keyboard fade while swiping."
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### Activation mode\n\nWhen **Space, Shift & Delete Only** is enabled, only swipes starting on those keys control SwipeSelection. Swipes from other keys follow your existing Apple Slide to Type setting. SwipeSelection does not change that setting."
+          "markdown": "### Activation mode\n\nWhen **Space, Shift & Delete Only** is enabled, only swipes starting on those keys control SwipeSelection. Other key swipes follow your existing Apple Slide to Type setting. SwipeSelection does not change that setting."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Settings\n\n- Enabled — On\n- Haptic feedback — On, Light\n- Cursor speed — 1.00\n- Dim keyboard — On\n- Space, Shift & Delete Only — Off"
         },
         {
           "class": "DepictionMarkdownView",
@@ -74,7 +78,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 1.0.0\n\n- Initial release."
+          "markdown": "### 1.0.0\n\n- Initial release.\n- Swipe cursor movement and Shift/Delete selection.\n- Native keyboard fade.\n- Activation mode, haptics, and adjustable cursor speed.\n- Rootless and RootHide packages."
         }
       ]
     }
